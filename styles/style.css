@@ -7,4 +7,17 @@
 
 body {
   background-color: rgba(0, 0, 0, 0.068);
+  
+}
+
+body #content {
+  display: flex;
+  position: fixed;
+  background: #34495e;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
 }
